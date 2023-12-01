@@ -4,8 +4,6 @@ require "bundler/setup"
 Bundler.require(:default, :development)
 
 class LetterCombo < T::Enum
-  extend T::Sig
-
   enums do
     A = new
     B = new
